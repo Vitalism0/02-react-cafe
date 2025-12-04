@@ -1,6 +1,6 @@
-export default interface Votes {
+export interface Votes {
   good: number;
-  netural: number;
+  neutral: number;
   bad: number;
 }
 export type VoteType = "good" | "neutral" | "bad";
